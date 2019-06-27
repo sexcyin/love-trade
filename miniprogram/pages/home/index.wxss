@@ -1,0 +1,39 @@
+page {
+  box-sizing: border-box;
+  background: #f6f6f6;
+  padding: 20rpx;
+}
+.need-pay {
+  padding: 30rpx;
+  background-color: #fff1f0;
+  border: 1rpx solid #ffa39e;
+  border-radius: 8rpx;
+}
+.need-pay .label {
+  font-size: 32rpx;
+  color: #666;
+}
+.need-pay .money {
+  font-size: 60rpx;
+  color: #f00;
+}
+.had-pay {
+  padding: 20rpx;
+  margin-top: 40rpx;
+  text-align: center;
+  display: flex;
+  background-color: #fff;
+  border: 1rpx solid rgba(0, 0, 0, 0.1);
+  border-radius: 8rpx;
+}
+.had-pay .item {
+  flex: 1;
+}
+.had-pay .item .label {
+  color: #666;
+  font-size: 30rpx;
+}
+.had-pay .item .money {
+  font-size: 40rpx;
+  color: #07c160;
+}

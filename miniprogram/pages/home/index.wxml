@@ -1,0 +1,22 @@
+<view>
+  <view class="need-pay">
+    <text class="label">待还款：</text>
+    <text class="money">10000</text>
+  </view>
+  <view class="had-pay">
+    <view class="item">
+      <text class="label">已借：</text>
+      <text class="money">10000</text>
+      <navigator url="../apply/index" open-type="navigate" class="uploader-text">
+        <text>我要借钱</text>
+      </navigator>
+    </view>
+    <view class="item">
+      <text class="label">已还：</text>
+      <text class="money">10000</text>
+      <navigator url="../apply/index" open-type="navigate" class="uploader-text">
+        <text>我要还钱</text>
+      </navigator>
+    </view>
+  </view>
+</view>
